@@ -19,7 +19,7 @@ const Home = () => {
         
     </div>
     <div className=' mt-14 flex justify-center first-letter:'>
-      <button type="button download" className=" bg-red-400 px-2 py-2 rounded-md">Download cv</button>
+      <a href="/src/assets/Tansen resume.pdf" download ><button type="submit" className=" bg-red-400 px-2 py-2 rounded-md">Download Resume</button></a>
     </div>
     </>
   )
