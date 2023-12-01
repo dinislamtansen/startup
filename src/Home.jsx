@@ -18,8 +18,8 @@ const Home = () => {
         </div>
         
     </div>
-    <div className=' mt-14 flex justify-center'>
-      <button type="button download" className=" bg-slate-100">Download cv</button>
+    <div className=' mt-14 flex justify-center first-letter:'>
+      <button type="button download" className=" bg-red-400 px-2 py-2 rounded-md">Download cv</button>
     </div>
     </>
   )

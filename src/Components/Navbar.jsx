@@ -10,10 +10,10 @@ const Navbar = () => {
       </div>
       <div >
         <ul className=" flex justify-around text-gray-300 pt-7 text-l">
-          <li><Link to={'/'}>Home</Link></li>
-          <li><Link to={'./testimonial'}>Testimonial</Link></li>
-          <li><Link to={'./projects'}>Projects</Link></li>
-          <li><Link to={'./resume'}>Resume</Link></li>
+          <Link to={'./'}><li>Home</li></Link>
+          <Link to={'./testimonial'}><li>Testimonial</li></Link>
+          <Link to={'./projects'}><li>Projects</li></Link>
+          <Link to={'./resume'}><li>Resume</li></Link>
           <li>Contact</li>
         </ul>
       </div>
