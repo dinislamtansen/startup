@@ -1,12 +1,20 @@
-
+import { Routes,Route } from 'react-router-dom'
 import './App.css'
+import Testimonial from './Components/Testimonial'
+import Resume from './Components/Resume'
+import Projects from './Components/Projects'
+import Home from './Home'
 
 function App() {
- 
-
   return (
     <>
-      <p className=' bg-orange-500'>tansen</p>
+      <Routes>
+        <Route path='/' element={<Home/>}/>
+        <Route path='/home' element={<Home/>}/>
+        <Route path='/testimonial' element={<Testimonial/>}/>
+        <Route path='/resume' element={<Resume/>}/>
+        <Route path='/projects' element={<Projects/>}/>
+      </Routes>
     </>
   )
 }
