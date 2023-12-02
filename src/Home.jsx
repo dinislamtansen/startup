@@ -8,7 +8,6 @@ import Navbar from './Components/Navbar'
 const Home = () => {
   return (
     <>
-  <Navbar/>
     <div className=' grid grid-cols-2'>
         <div>
             <BodyLeft/>

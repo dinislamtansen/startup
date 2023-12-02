@@ -4,10 +4,12 @@ import Testimonial from './Components/Testimonial'
 import Resume from './Components/Resume'
 import Projects from './Components/Projects'
 import Home from './Home'
+import Navbar from './Components/Navbar'
 
 function App() {
   return (
     <>
+    <Navbar/>
       <Routes>
         <Route path='/' element={<Home/>}/>
         <Route path='/home' element={<Home/>}/>

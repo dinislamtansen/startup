@@ -1,14 +1,22 @@
-import {  createContext, useState } from "react"
+import {  createContext, useEffect, useState } from "react"
 
 export const MyContext= createContext()
 const DataContext = ({children}) => {
 
-  const [data,setData]=useState(["tansen"])
-  console.log(data)
+  const [data,setData]=useState([]);
+  
+
 
 const info={
+data,
+setData,
 
 }
+useEffect(()=>{
+    fetch(`/src/Data/Data.json`)
+    .then(res=> res.json())
+    .then(tansen=>setData(tansen))
+},[])
 
 
   return (

@@ -10,8 +10,8 @@ const Navbar = () => {
       </div>
       <div >
         <ul className=" flex justify-around text-gray-300 pt-7 text-l">
-          <Link to={'./'}><li>Home</li></Link>
-          <Link to={'./testimonial'}><li>Testimonial</li></Link>
+          <li><Link to={'./'}>Home</Link></li>
+          <li><Link to={'./testimonial'}>Testimonial</Link></li>
           <Link to={'./projects'}><li>Projects</li></Link>
           <Link to={'./resume'}><li>Resume</li></Link>
           <li>Contact</li>
