@@ -1,5 +1,6 @@
 
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import Animate from "../Animation/Animate"
 
 
@@ -16,7 +17,9 @@ const BodyLeft = () => {
     <div className="grid grid-cols-2 pl-10 pt-10">
       <div>
           <p className=" text-white">FINE ME IN</p><br />
+          <div className=" flex ">
           
+          </div>
       </div>
       <div>
         <p className=" text-white">BEST SKILL ON</p>

@@ -1,32 +1,51 @@
 [
     {
         "id":1,
-        "image":"/public/static/images/tansdev.PNG",
-        "title":"Protfolio project with react js"
+        "name":"HTML+CSS",
+        "image":"/static/images/Protfolio john.PNG",
+        "title":"Protfolio(Jhon doe) project HTML+CSS",
+        "demo": "https://protfolio-dev-2ure.vercel.app/",
+        "ripo":"https://github.com/dinislamtansen/portfolio2"
+
     },
     {
         "id":2,
-        "image":"/public/static/images/website.PNG",
-        "title":"Protfolio project with react js"
+        "name":"HTML+CSS+JavaScript",
+        "image":"/static/images/website.PNG",
+        "title":"Static website project with react js",
+        "demo": "https://new-website-chi-sandy.vercel.app/",
+        "ripo":"https://github.com/dinislamtansen/new-website"
     },
     {
         "id":3,
-        "image":"/public/static/images/tansdev.PNG",
-        "title":"Protfolio project with react js"
+        "name":"HTML+CSS+BOOTSTRAP",
+        "image":"/static/images/Video website.PNG",
+        "title":"Video  project with Bootstrap",
+        "demo": "https://video-bootsrap-nnui.vercel.app/",
+        "ripo":"https://github.com/dinislamtansen/videobg-project"
     },
     {
         "id":4,
-        "image":"/public/static/images/tansdev.PNG",
-        "title":"Protfolio project with react js"
+        "name":"REACT PROTFOLIO PROJECT",
+        "image":"/static/images/tansdev.PNG",
+        "title":"Protfolio project with react js",
+        "demo": "https://tansendev.vercel.app/",
+        "ripo":"https://github.com/dinislamtansen/startup"
     },
     {
         "id":5,
-        "image":"/public/static/images/tansdev.PNG",
-        "title":"Protfolio project with react js"
+        "name":"ECOMMERCE+REACT+TAILWINDCSS",
+        "image":"/static/images/Ecommerce.PNG",
+        "title":"Ecommerce project with react js",
+        "demo": "https://exam-flax-five.vercel.app/",
+        "ripo":"https://github.com/dinislamtansen/exam"
     },
     {
         "id":6,
-        "image":"/public/static/images/tansdev.PNG",
-        "title":"Protfolio project with react js"
+        "name":"ECOMMERCE+REACT+TAILWINDCSS",
+        "image":"/static/images/New ecommerce.PNG",
+        "title":"Fetch free api",
+        "demo": "https://new-ecommerce-lime.vercel.app/",
+        "ripo":"https://github.com/dinislamtansen/new-ecommerce"
     }
 ]

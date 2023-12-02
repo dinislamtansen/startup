@@ -11,7 +11,7 @@ console.log(data)
 
   return (
     <>
-<section className=" m-10 bg-slate-800 rounded-md">
+<section className=" m-10 bg-gray-950 rounded-md">
   
       
      <div className=" flex justify-center flex-wrap">
