@@ -18,7 +18,7 @@ const Home = () => {
         
     </div>
     <div className=' mt-14 flex justify-center first-letter:'>
-      <a href="/src/assets/Tansen resume.pdf" download ><button type="submit" className=" bg-red-400 px-2 py-2 rounded-md hover:bg-green-400" >Download Resume</button></a>
+      <a href="/src/assets/Tansen resume.pdf" download ><button type="submit" className=" bg-transparent text-white border border-white px-2 py-2 rounded-md hover:bg-green-400" >Download Resume</button></a>
     </div>
     </>
   )
