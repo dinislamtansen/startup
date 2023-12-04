@@ -71,6 +71,64 @@ const Resume = () => {
                                 </div>
                           </div>
                       </div>   
+                      <div className=" px-10 py-5 ">
+                         <div className=" bg-transparent border border-solid border-white w-full h-56 text-white rounded-lg text-left border-opacity-10 pl-3 pt-3 grid grid-cols-2">
+                              
+                              <div className=" relative w-5/6" >
+                                    <div >
+                                      <p className=" text-3xl">Knowledges</p>
+                                    </div>
+                                    <div className=" flex justify-between mt-3">
+                                      <p>Web Design</p><p>80%</p>
+                                    </div>
+                                    <div className=" bg-white w-full h-2  absolute rounded-xl mt-3">
+                                      
+                                    </div>
+
+                                    <div className=" bg-red-700 w-96 h-2  absolute rounded-xl mt-3">
+                                      
+                                    </div>
+                                    <div className=" flex justify-between mt-6
+                                    
+                                    
+                                    
+                                    ">
+                                      <p>Web Design</p><p>80%</p>
+                                    </div>
+                                    <div className=" bg-white w-full h-2  absolute rounded-xl mt-6">
+                                      
+                                    </div>
+
+                                    <div className=" bg-red-700 w-96 h-2  absolute rounded-xl mt-6">
+                                      
+                                    </div>
+                                    <div className=" flex justify-between mt-9">
+                                      <p>Web Design</p><p>80%</p>
+                                    </div>
+                                    <div className=" bg-white w-full h-2  absolute rounded-xl mt=9">
+                                      
+                                    </div>
+
+                                    <div className=" bg-red-700 w-96 h-2  absolute rounded-xl mt=9">
+                                      
+                                    </div>
+                              </div>
+
+                                <div className=" flex">
+                                      <div>
+                                      <img src="/static/images/shopelo.jpg" alt="" style={{width:80,height:80}} className=" rounded-lg"/>
+                                    </div>
+                                      <div className=" pl-10">
+                                      <p>Shopelo Sourcing Limited</p>
+                                      <p>React Intern</p>
+                                      <p className=" text-xs">2022-present</p>
+                                      </div>
+                                </div>
+                              
+                          </div>
+                          
+
+                      </div>
 
                  <div className=" text-center text-white p-5">
                        © 2023 Developed By Din Islam Tansen
