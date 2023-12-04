@@ -43,9 +43,9 @@ const Contact = () => {
                         <p className=" text-white"> Please send your query here</p>
 
                         <div className=" pt-5">
-                        <input type="text" placeholder="Name*" className=" bg-transparent py-1  " /><hr className=" p-5"/>
-                        <input type="email" placeholder="Email*" className=" bg-transparent py-1 text-white "/><hr className=" p-5" />
-                        <input type="text" placeholder="Messege*" className=" bg-transparent py-1 "/><hr className=" p-5"/>
+                        <input type="text" placeholder="Name*" className=" bg-transparent py-1 outline-0 text-white " /><hr className=" p-5"/>
+                        <input type="email" placeholder="Email*" className=" bg-transparent py-1 outline-0 text-white "/><hr className=" p-5" />
+                        <input type="text" placeholder="Messege*" className=" bg-transparent py-1 outline-0 "/><hr className=" p-5"/>
                         <button type="submit" className=" text-white bg-transparent border border-solid px-3 py-1 rounded-md hover:bg-red-500">Submit</button>
                         </div>
                     </div>
