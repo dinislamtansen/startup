@@ -13,7 +13,7 @@ setData,
 
 }
 useEffect(()=>{
-    fetch(`/src/Data/Data.json`)
+    fetch(`Data.json`)
     .then(res=> res.json())
     .then(tansen=>setData(tansen))
 },[])
